@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+#div{
+    height: 50px;
+    text-align: center;
+    margin-top: auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px 35px rgb(16, 165, 214);
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bolder;
+}
+.card{
+    height: 280px;
+    width: 200px;
+    border: 2px solid rgb(240, 8, 8);
+    display: inline-block;
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 4px 8px 16px black;
+}
+.desc{
+    padding:  0 2px 0 2px;
+}
+img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.card:hover{
+    box-shadow: 16px 16px 16px red;
+    transition: 2s ease-in-out;
+    transform: rotate(30deg);
+}
